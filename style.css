@@ -1,0 +1,107 @@
+body{
+    font-family: Trasandina, 'Gotham Helvetica';
+    margin: 0;
+}
+
+.top-section{
+    display: flex;
+}
+.Intro{
+    background-color: #D9D9D9;
+    height: 1100px;
+}
+.name{
+    font-size: 90px;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    margin-left: 650px;
+}
+
+li{
+    margin: 45px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.one{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    display: table;
+    margin: auto;
+}
+
+.image{
+    width: 900px;
+    height: 600px;
+    display: table;
+    margin: auto;
+}
+
+.button{
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    color: white;
+    background-color: #5570FF;
+    display: table;
+    margin: 50px auto;
+    border-radius: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.feature{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.two{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.searchable, .downloadable, .responsive{
+    border: 1px solid black;
+    width: 450px;
+    border-radius: 0.5rem;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+}
+
+.About{
+    text-align: center;
+    width: 1200px;
+    display: table;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    height: 250px;
+    border-radius: 0.5rem;
+}
+
+.three{
+    font-size: 20px;
+    text-decoration: none;
+    display: table;
+    margin: auto;
+}
