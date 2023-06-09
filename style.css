@@ -105,3 +105,48 @@ a{
     display: table;
     margin: auto;
 }
+
+@media only screen and (max-width: 480px) and (min-width: 200px){
+    .Intro{
+        width: 100vw;
+        height: 400px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    ol{
+        margin-left: auto;
+        white-space: nowrap;
+        
+    }
+    li{
+        font-size: 12px;
+        margin: 9px;
+    }
+
+    .one{
+        font-size: 20px;
+        display: inline;
+    }
+    .image{
+        width: 150px;
+        height: 120px;
+    }
+    .button{
+        height: 30px;
+        width: 200px;
+    }
+    .feature{
+        font-size: 25px;
+    }
+    .two{
+        font-size: 11px;
+    }
+    .searchable, .downloadable, .responsive{
+        font-size: 10px;
+    }
+    .About{
+        width: 98vw;
+
+    }
+}
